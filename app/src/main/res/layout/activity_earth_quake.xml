@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EarthQuake"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <!--        // Main Image-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mainimage"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <!--        // Defination-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earthquakeDefination"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+        <!--        // Title-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do's and Dont's"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <!--        // Tip1-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip1"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--        // Image1-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:id="@+id/earthquake_image1"
+            android:background="@drawable/ic_launcher_background"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <!--        // Tip2-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip2"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--        // Image2-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/earthquake_image2"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip3-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip3"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--        // Image3-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/earthquake_image3"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip4-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip4"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--        // Image4-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/earthquake_image4"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip5-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip5"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+        <!--        // Image 5-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:id="@+id/earthquake_image5"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip6-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip6"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--        // Image 6-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:id="@+id/earthquake_image6"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip7-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip7"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+
+        <!--            // Image7-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/earthquake_image7"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+
+        <!--        // Tip8-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip8"
+            android:layout_marginBottom="10dp"
+            android:text="Earthquakes strike without (or with limited) warning and are among the most destructive natural disasters. To ride out an earthquake, remember the phrase “drop, cover, and hold on.” Quickly find a spot away from glass, exterior walls, and any objects that could fall. Crouch and take cover until the shaking stops, then respond to any hazardous damage caused by the earthquake. Advanced preparation is key, so you and your family should make a supply kit, come up with an emergency plan, and practice drills regularly."
+            />
+
+        <!--        // Image8-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/earthquake_image8"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_launcher_background"
+            />
+
+        <!--        References-->
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="15dp"
+            android:text="reference: www.Wikihow.com"
+            />
+
+    </LinearLayout>
+</ScrollView>

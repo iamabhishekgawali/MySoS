@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardUseCompatPadding="false"
+    card_view:contentPadding="0dp"
+    card_view:layout_goneMarginTop="0dp"
+
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/dimg"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/dtitle"
+            android:layout_height="wrap_content"
+            android:text="Coping Tips for a Heart Attack: Dos and Don'ts\n"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginTop="15dp"
+
+            />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ddesp"
+            android:text="Learn about the dos and don'ts in the event of a heart attack ​from the Department of Emergency Medicine at Singapore General Hospital (SGH)."
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="5dp"
+
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
